@@ -25,6 +25,32 @@
           "children": ["this is a button"]
         }
       ]
+    },
+    {
+      "component": "TouchableOpacity",
+      "props": {
+        "style": {
+          "paddingTop": 20,
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        "onPress": {
+          "action": "navigate/to",
+          "message": "this button navigate to other page"
+        }
+      },
+      "children": [
+        {
+          "component": "Text",
+          "props": {
+            "style": {
+              "color": "#055f",
+              "fontSize": 16
+            }
+          },
+          "children": ["this is a navigation button"]
+        }
+      ]
     }
   ]
 }

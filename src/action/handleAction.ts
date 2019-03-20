@@ -5,7 +5,7 @@ export default function handleAction(task: any) {
     case "dialog/alert":
       return Alert.alert(task.message);
 
-    default:
-      break;
+    case "navigate/to":
+      return Alert.alert(task.message);
   }
 }
