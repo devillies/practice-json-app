@@ -1,0 +1,30 @@
+{
+  "name": "button",
+  "render": [
+    {
+      "component": "TouchableOpacity",
+      "props": {
+        "style": {
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        "onPress": {
+          "action": "dialog/alert",
+          "message": "this is a button"
+        }
+      },
+      "children": [
+        {
+          "component": "Text",
+          "props": {
+            "style": {
+              "color": "#f00f",
+              "fontSize": 16
+            }
+          },
+          "children": ["this is a button"]
+        }
+      ]
+    }
+  ]
+}

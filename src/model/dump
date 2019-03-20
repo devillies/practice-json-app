@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "definitions": {
+    "button": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "button_type": { "type": "string" }
+      },
+      "required": ["name", "button_type"]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "big_button": { "$ref": "#/definitions/button" }
+  },
+
+  "big_button": {
+    "name": "a really big button",
+    "button_type": "big"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "tsconfig-kodefox",
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+    "jsx": "react-native",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "types": ["react", "react-native"]
+}
